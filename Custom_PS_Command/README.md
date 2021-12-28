@@ -1,6 +1,6 @@
 # Custom PS Command - 19MCME08
 
-This is a collection of simple programs to simulate the "ps" command in linux, by making use of the "/proc" file system.
+This is a collection of simple programs to simulate the "ps" command in Linux, by making use of the "/proc" file system.
 
 ## Contents
 
