@@ -19,15 +19,15 @@ Modularity has been of prime importance while developing this project, so that t
 
 The exit code pertaining to each execution of the project can be obtained by running the `echo $?` command on the kernel. While the error message is printed accordingly, the status codes used are given below:
 
-0 = successful execution
-1 = Couldn't open a file/Invalid PID
-4 = Couldn't close a directory
+0 = successful execution<br>
+1 = Couldn't open a file/Invalid PID<br>
+4 = Couldn't close a directory<br>
 6 = Couldn't open a directory
 
 ## Makefile
 
 A Makefile has been provided with this project to make it easy for the user to run programs. The following commands can be run on the kernel:
 
-`make run`: to execute the "ps08" executable
-`make all`: to compile the programs
+`make run`: to execute the "ps08" executable<br>
+`make all`: to compile the programs<br>
 `make clean`: to clean the directory of the object files
