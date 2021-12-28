@@ -29,5 +29,4 @@ The exit code pertaining to each execution of the project can be obtained by run
 A Makefile has been provided with this project to make it easy for the user to run programs. The following commands can be run on the kernel:
 
 `make run`: to execute the "ps08" executable<br>
-`make all`: to compile the programs<br>
 `make clean`: to clean the directory of the object files
