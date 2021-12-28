@@ -1,8 +1,8 @@
-#Custom PS Command - 19MCME08
+# Custom PS Command - 19MCME08
 
 This is a collection of simple programs to simulate the "ps" command in linux, by making use of the "/proc" file system.
 
-##Contents
+## Contents
 
 1. ps08.c - The main program which executes all the functions present in the other two .c files
 2. setinfo.c - Prints the information with respect to each process, which serves as the output of the entire project. It displays 5 columns:
@@ -15,7 +15,7 @@ This is a collection of simple programs to simulate the "ps" command in linux, b
 
 Modularity has been of prime importance while developing this project, so that the programs are more readable
 
-##Exit Codes
+## Exit Codes
 
 The exit code pertaining to each execution of the project can be obtained by running the `echo $?` command on the kernel. While the error message is printed accordingly, the status codes used are given below:
 
@@ -24,7 +24,7 @@ The exit code pertaining to each execution of the project can be obtained by run
 4 = Couldn't close a directory
 6 = Couldn't open a directory
 
-##Makefile
+## Makefile
 
 A Makefile has been provided with this project to make it easy for the user to run programs. The following commands can be run on the kernel:
 
