@@ -11,10 +11,10 @@ This is a collection of simple programs to to illustrate the various contiguous 
 
 It should be noted that the input file MUST be of the following order:
 
-<Total_Memory>
-<Number_of_holes>
-<Hole_information_of_x_lines>
-<Process_size_of_y_lines>
+<Total_Memory><br>
+<Number_of_holes><br>
+<Hole_information_of_x_lines><br>
+<Process_size_of_y_lines><br>
 
 Here, `x` denotes the number of holes, while `y` denotes the number of processes
 
@@ -38,9 +38,9 @@ It is to be noted that the process ID of the file is in order of appearance of p
 
 Eg.: If the input is
 
-600
-500
-400
+600<br>
+500<br>
+400<br>
 
 Then process 1 will have a size of 600, process 2 of 500 and so on.
 
