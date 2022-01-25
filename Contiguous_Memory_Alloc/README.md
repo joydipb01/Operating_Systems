@@ -22,7 +22,7 @@ Hole information should be given as:
 
 <Start_Address>, <Hole_Size>
 
-##Exit Codes
+## Exit Codes
 
 The exit code pertaining to each execution of the project can be obtained by running the `echo $?` command on the kernel. While the error message is printed accordingly, the status codes used are given below:
 
@@ -31,7 +31,7 @@ The exit code pertaining to each execution of the project can be obtained by run
 2 = Could not open file/File doesn't exist
 3 = Irregularity in input given in input file
 
-##Output
+## Output
 
 The output contains the columns `Process ID`, `Size (of the process)`, `Address where the process has been allocated`.
 It is to be noted that the process ID of the file is in order of appearance of process size requirements.
