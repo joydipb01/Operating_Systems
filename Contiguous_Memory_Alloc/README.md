@@ -26,10 +26,10 @@ Hole information should be given as:
 
 The exit code pertaining to each execution of the project can be obtained by running the `echo $?` command on the kernel. While the error message is printed accordingly, the status codes used are given below:
 
-0 = successful execution
-1 = Invalid argument count (cmd arguments)
-2 = Could not open file/File doesn't exist
-3 = Irregularity in input given in input file
+0 = successful execution<br>
+1 = Invalid argument count (cmd arguments)<br>
+2 = Could not open file/File doesn't exist<br>
+3 = Irregularity in input given in input file<br>
 
 ## Output
 
