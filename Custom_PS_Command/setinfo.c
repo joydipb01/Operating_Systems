@@ -89,6 +89,6 @@ void printInfo(const info *pinfo){
     if (pinfo->file == -1)
         printf("%-14s", "-");
     else
-        printf("%-14d", pinfo->file);
+        printf("%-14d", pinfo->file - 2);
     printf("%s\n",pinfo->command);
 }
